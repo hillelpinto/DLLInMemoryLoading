@@ -6,3 +6,7 @@ to compile it successfully make sure that in VS project properties -> Advanced -
 
 do not forget:
     -> if the remote raw dll was compiled in x64 then you must compile this code in x64 (same for x86)
+
+the main advantage is to avoid writing the DLL to a file and calling common win api to load it
+
+it can be used for evasion
